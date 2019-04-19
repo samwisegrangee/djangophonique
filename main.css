@@ -1,0 +1,478 @@
+/*! normalize.css v1.0.1 | MIT License | git.io/normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+button, html, input, select, textarea {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+blockquote {
+  margin: 1em 40px;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+p, pre {
+  margin: 1em 0;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: none;
+}
+
+q:after, q:before {
+  content: "";
+  content: none;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+dl, menu, ol, ul {
+  margin: 1em 0;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+menu, ol, ul {
+  padding: 0 0 0 40px;
+}
+
+nav ol, nav ul {
+  list-style: none;
+  list-style-image: none;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+form {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Tulpen One', cursive;
+font-family: 'Medula One', cursive;
+font-family: 'Uncial Antiqua', cursive;
+font-family: 'Amarante', cursive;
+font-family: 'Kranky', cursive;
+font-family: 'Alegreya', serif;
+font-family: 'Roboto Slab', serif;
+*/
+h1, h2 {
+  font-family: "Tulpen One", cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-size: calc(14px + 2vw);
+}
+
+p {
+  font-family: "Alegreya", serif;
+  font-size: calc(12px + 0.5vw);
+  line-height: 1.5;
+  color: #666;
+}
+
+a {
+  transition: all 0.3s ease;
+}
+
+/*
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Tulpen One', cursive;
+font-family: 'Medula One', cursive;
+font-family: 'Uncial Antiqua', cursive;
+font-family: 'Amarante', cursive;
+font-family: 'Kranky', cursive;
+font-family: 'Alegreya', serif;
+font-family: 'Roboto Slab', serif;
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: "Alegreya", serif;
+}
+
+section article, footer article {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section.dark {
+  background: #222;
+  background-image: url(../images/what-the-hex-dark.png);
+}
+section.dark h1, section.dark h2, section.dark h3 {
+  color: #eee;
+}
+section.dark p {
+  color: #666;
+}
+section.dark button, section.dark .button {
+  background: #eee;
+  color: #222;
+}
+section.dark button:hover, section.dark .button:hover {
+  background: #666;
+  color: #eee;
+  border-color: #666;
+}
+
+.row {
+  display: flex;
+}
+.row .half {
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .row {
+    display: block;
+  }
+  .row .half {
+    width: 100%;
+  }
+}
+button, .button {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.25em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 0;
+  background: #222;
+  color: #eee;
+  padding: 0.5em 0.75em;
+  transition: all 0.3s ease;
+}
+button:hover, .button:hover {
+  background: #666;
+  color: #eee;
+}
+
+nav {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul li a {
+  color: #eee;
+}
+
+.nav-scrolled {
+  position: fixed;
+  animation: fade-in 0.3s ease;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 1em 2em;
+}
+
+nav ul li a {
+  font-family: "Tulpen One", cursive;
+  font-size: calc(12px + 2vw);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    position: relative;
+  }
+}
+footer {
+  background: #222;
+  color: #eee;
+  padding: 1em;
+}
+footer p {
+  text-align: right;
+  margin: 0;
+}
+footer a {
+  color: #eee;
+}
+footer a:hover {
+  opacity: 0.7;
+}
+
+.videos {
+  text-align: center;
+}
+
+.video-box iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.mc-field-group {
+  margin-bottom: 1em;
+}
+.mc-field-group label {
+  display: block;
+  margin-bottom: 1em;
+}
+.mc-field-group input.email {
+  font-family: "Alegreya", serif;
+  font-size: 1.5em;
+  width: 100%;
+  max-width: 20em;
+}
+
+.indicates-required {
+  margin-top: 1em;
+  opacity: 0.5;
+}
+
+#mc_embed_signup {
+  text-align: center;
+}
+
+header {
+  position: relative;
+}
+header h1 {
+  position: absolute;
+  font-size: 4vw;
+  top: 25%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+header h1 span {
+  display: block;
+  text-align: center;
+}
+header h1 span.title {
+  font-size: 2em;
+}
+header h1 span.pretitle {
+  font-family: "Oswald", sans-serif;
+  color: #666;
+}
+
+.profile-image {
+  display: block;
+  border-radius: 50%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.transition-image {
+  background-image: url("../images/andrew-grayscale.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 33vw;
+}
+
+/*# sourceMappingURL=main.css.map */
