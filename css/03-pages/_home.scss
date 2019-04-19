@@ -1,0 +1,38 @@
+header {
+    position: relative;
+
+    h1 {
+        position: absolute;
+        font-size: 4vw;
+        top: 25%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+
+        span {
+            display: block;
+            text-align: center;
+        }
+
+        span.title {
+            font-size: 2em;
+        }
+        span.pretitle {
+            font-family: $sans-font;
+            //text-transform: none;
+            color: $django-gray-light;
+        }
+    }
+}
+.profile-image {
+  display: block;
+  border-radius: 50%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.transition-image {
+    background-image: url('../images/andrew-grayscale.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 33vw;
+}

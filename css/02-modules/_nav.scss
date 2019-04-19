@@ -1,0 +1,43 @@
+nav {
+    position: absolute;
+    background: rgba(0,0,0, 0.7);
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+nav ul li a {
+    color: #eee;
+}
+.nav-scrolled {
+    position: fixed;
+    animation: fade-in 0.3s ease;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+nav ul li {
+    padding: 1em 2em;
+}
+nav ul li a {
+    font-family: $head-font;
+    font-size: calc(12px + 2vw);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+  nav {
+    position: relative;
+  }
+}

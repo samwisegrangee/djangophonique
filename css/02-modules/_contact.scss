@@ -1,0 +1,20 @@
+.mc-field-group {
+  margin-bottom: 1em;
+  label {
+    display: block;
+    margin-bottom: 1em;
+  }
+  input.email {
+    font-family: $body-font;
+    font-size: 1.5em;
+    width: 100%;
+    max-width: 20em;
+  }
+}
+.indicates-required {
+  margin-top: 1em;
+  opacity: 0.5;
+}
+#mc_embed_signup {
+  text-align: center;
+}

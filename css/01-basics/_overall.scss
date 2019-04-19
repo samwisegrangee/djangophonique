@@ -1,0 +1,84 @@
+/*
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Tulpen One', cursive;
+font-family: 'Medula One', cursive;
+font-family: 'Uncial Antiqua', cursive;
+font-family: 'Amarante', cursive;
+font-family: 'Kranky', cursive;
+font-family: 'Alegreya', serif;
+font-family: 'Roboto Slab', serif;
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+body {
+    background: $django-white;
+    font-family: $body-font;
+}
+
+section article, footer article {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section.dark {
+    background: $django-gray-dark;
+    background-image: url(../images/what-the-hex-dark.png);
+
+    h1, h2, h3 {
+        color: $django-white;
+    }
+    p {
+        color: $django-gray-light;
+    }
+    button, .button {
+        background: $django-white;
+        color: $django-gray-dark;
+
+        &:hover {
+            background: $django-gray-light;
+            color: $django-white;
+            border-color: $django-gray-light;
+        }
+    }
+}
+.row {
+    display: flex;
+
+    .half {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+  .row {
+      display: block;
+
+      .half {
+          width: 100%;
+      }
+  }
+}
+
+
+button, .button {
+    font-family: $sans-font;
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 0;
+    background: $django-gray-dark;
+    color: $django-white;
+    padding: 0.5em 0.75em;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: $django-gray-light;
+        color: $django-white;
+    }
+}
